@@ -1,7 +1,7 @@
 use std::{fs::File, io::BufRead};
 
 fn main() {
-    let input_file = File::open("inputs/d1/p1").unwrap();
+    let input_file = File::open("inputs/d1").unwrap();
     let buf_reader = std::io::BufReader::new(input_file);
     let mut curr_elf: i64 = 0;
     let mut top_elf: i64 = 0;
